@@ -1,0 +1,167 @@
+body {
+	/* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	/*text-align: center;*/
+	color:white;
+	background:#051e3e;
+}
+
+#score {
+	grid-column: 4/10;
+	border:3px solid #606e85;
+	padding:2%;
+	margin:50px 20% auto 20%;
+	border: 1px solid white;
+	border-radius: 8px;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+.score-title,.scoreValue {
+	margin:2px auto;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.scoreBoard {
+	margin:10px 10px;
+	background:white;
+	color:black;
+	border-radius: 7px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-basis: 100px;
+	padding:1%;
+}
+.score-title {
+	text-transform: uppercase;
+	font-weight: 700 bold;
+	line-height: 30px;
+	color:#1a2b3c;
+}
+.scoreValue {
+	color:#3b4363;
+	font-size: 48px;
+}
+.player h5,.computer h5{
+	margin:5px auto;
+}
+.game-options {
+	margin-top: 30px;
+	width: 60%;
+}
+#playAgain {
+	width: 160px;
+	border-radius: 5px;
+	padding:6px;
+	color:#1a2b3c;
+}
+.rock, 
+.paper, 
+.scissors,
+.lizard,
+.spock {
+	display: inline-block;
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	background: white;
+	color:black;
+	margin:5px;
+	padding: 5px;
+	border:1px solid black;
+}
+#game {
+	margin-top: 40px;
+	text-align: center;
+
+}
+.template {
+	width:80%;
+	margin:auto 10%;
+	display: inline-block;
+}
+.col-half {
+	width:40%;
+	display: inline-block;
+	/*margin:0;*/
+	text-align: center;
+}
+.col-full {
+	width: 100%;
+}
+.rock img,
+.paper img,
+.scissors img,
+.lizard img,
+.spock img {
+	width:40px;
+}
+.rock {
+	border:8px solid hsl(349, 71%, 52%);
+	box-shadow: inset -2px -10px 2px 2px rgba(0,0,0,.25);
+}
+.scissors {
+	border: 8px solid hsl(39, 89%, 49%);
+	box-shadow: inset -2px -5px 2px 2px rgba(0,0,0,.25);
+}
+.paper {
+	border: 8px solid hsl(230, 89%, 62%);
+	box-shadow: inset -2px -10px 2px 2px rgba(0,0,0,.25);
+}
+.lizard {
+	border: 8px solid purple;
+	box-shadow: inset -2px -10px 2px 2px rgba(0,0,0,.25);
+}
+.spock {
+	border:8px solid teal;
+	box-shadow: inset -2px -10px 2px 2px rgba(0,0,0,.25);
+}
+#human,#com{
+	width:45%;
+	display: inline-block;
+}
+.result {
+	display:none;
+	margin-top:30px;
+	margin-bottom: 30px;
+	width:100%;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container {
+	margin:auto 10%;
+	display:inline-block;
+	width: 80%;
+	text-align: center;
+}
+.shadow {
+	width:110px;
+	height: 110px;
+	background: rgba(0,0,0,0.5);
+	border:none;
+	border-radius: 50%;
+}
+.winBox {
+	display: none;
+	text-align: center;
+	margin:30px auto;
+}
+.is-hidden {
+	display: none;
+}
+
+.rules {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	border-radius: 4px;
+	background: none;
+	border:1px solid whitesmoke;
+	color:white;
+	padding:5px;
+	width:100px;
+}
+h5 i,p i {
+	text-decoration: underline;
+}

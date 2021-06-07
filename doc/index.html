@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="modal.css">
+  <link rel="stylesheet" href="mobile.css">
+  
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+</head>
+<body>
+  <div id="score">
+    <div class="player scoreBoard">
+      <p class="score-title">Player</p>
+      <h5 class="scoreValue"> 0 </h5>
+    </div>
+    <div class="computer scoreBoard">
+      <p class="score-title">Computer</p>
+      <h5 class="scoreValue"> 0 </h5>
+    </div>
+  </div>
+
+  <div id="game">
+  </div>
+
+  <div class="overlay is-hidden">
+    <div class="modal is-hidden">
+      <img src="mobile-rules-modal-bonus.jpg">
+      <button class="close-nav">X</button>
+    </div>
+  </div>
+
+  <div class="result">
+    <div class="container">
+      <div id="human"></div>
+      <div id="com"></div>
+    </div>
+  </div>
+
+  <div class="winBox">
+    
+  </div>
+
+  <button class="rules">Rules</button>
+
+  <script src="modal.js"></script>
+  <script src="utils.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
